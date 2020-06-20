@@ -29,3 +29,4 @@ const usuarios = [
  { nome: 'Lucas', idade: 30, empresa: 'Facebook' },
 ];
 ```
+**2.1) Utilizando o `map`
