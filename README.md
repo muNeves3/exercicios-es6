@@ -1,3 +1,4 @@
 # exercicios-es6-rocketseat
 
-## Exercícios: Módulo 01 
+## Exercícios do módulo 1:
+aaaa
