@@ -4,16 +4,16 @@
 
 **1º exercício**
 
-**Para testar seus conhecimentos com classes, crie uma classe com nome "Admin", essa classe deve
-extender uma segunda classe chamada "Usuario".**
+Para testar seus conhecimentos com classes, crie uma classe com nome "Admin", essa classe deve
+extender uma segunda classe chamada "Usuario".
 
-**A classe usuário deve receber dois parâmetros no método construtor, e-mail e senha, e anotá-los
+A classe usuário deve receber dois parâmetros no método construtor, e-mail e senha, e anotá-los
 em propriedades da classe. A classe "Admin" por sua vez não recebe parâmetros mas deve
 repassar os parâmetros de e-mail e senha à classe pai e marcar uma propriedade "admin" como
-true na classe.**
+true na classe.
 
-**Agora com suas classes formatadas, adicione um método na classe Usuario chamado `isAdmin` que
-retorna se o usuário é administrador ou não baseado na propriedade `admin` ser `true` ou não** 
+Agora com suas classes formatadas, adicione um método na classe Usuario chamado `isAdmin` que
+retorna se o usuário é administrador ou não baseado na propriedade `admin` ser `true` ou não
 
  ```JavaScript
  const User1 = new Usuario('email@teste.com', 'senha123');
@@ -24,7 +24,7 @@ retorna se o usuário é administrador ou não baseado na propriedade `admin` se
 
 **2º exercício**
 
-**A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):**
+A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):
 
 ```JavaScript
 const usuarios = [
@@ -61,7 +61,7 @@ no máximo 50 anos:
 
 **3º exercício**
 
-**Converta as funções nos seguintes trechos de código em Arrow Functions:**
+Converta as funções nos seguintes trechos de código em Arrow Functions:
 
 ```JavaScript 
 // 3.1
@@ -108,7 +108,7 @@ const promise = function() {
 
 **4.1 Desestruturação simples**
 
-**A partir do seguinte objeto:**
+A partir do seguinte objeto:
 
 ```JavaScript 
 const empresa = {
