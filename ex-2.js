@@ -21,5 +21,4 @@ const google = usuarios.find( item => {
 
 //multiplicação das idades por 2 e filtro para aqueles menores de 50
 const mult = usuarios.map(item => ({...item, idade: item.idade*2 })).filter(item => item.idade <= 50);
-
 console.log(mult);
