@@ -29,4 +29,15 @@ const usuarios = [
  { nome: 'Lucas', idade: 30, empresa: 'Facebook' },
 ];
 ```
-**2.1) Utilizando o `map`
+**2.1) Utilizando o `map`**
+
+Crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
+
+**2.2) Utilizando o `filter`**
+
+Crie uma variáveis que tenha apenas os usuários que trabalham na Rocketseat e com mais de 18
+anos: [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
+
+**2.3 Utilizando o ``find``**
+
+Crie uma variável que procura por um usuário que trabalhe na empresa Google: undefined
