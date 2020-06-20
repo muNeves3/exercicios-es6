@@ -2,7 +2,7 @@
 
 # Exercícios do módulo 1:
 
-**Para testar seus conhecimentos com classes, crie uma classe com nome "Admin", essa classe deve
+**1) Para testar seus conhecimentos com classes, crie uma classe com nome "Admin", essa classe deve
 extender uma segunda classe chamada "Usuario".**
 
 **A classe usuário deve receber dois parâmetros no método construtor, e-mail e senha, e anotá-los
@@ -18,5 +18,14 @@ const User1 = new Usuario('email@teste.com', 'senha123');
 const Adm1 = new Admin('email@teste.com', 'senha123');
 console.log(User1.isAdmin()) // false
 console.log(Adm1.isAdmin()) // true
+```
 
+**2) A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):**
+
+```JavaScript
+const usuarios = [
+ { nome: 'Diego', idade: 23, empresa: 'Rocketseat' },
+ { nome: 'Gabriel', idade: 15, empresa: 'Rocketseat' },
+ { nome: 'Lucas', idade: 30, empresa: 'Facebook' },
+];
 ```
