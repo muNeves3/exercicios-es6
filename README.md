@@ -15,14 +15,12 @@ true na classe.**
 **Agora com suas classes formatadas, adicione um método na classe Usuario chamado `isAdmin` que
 retorna se o usuário é administrador ou não baseado na propriedade `admin` ser `true` ou não** 
 
-<span style="color: green"> 
  ```JavaScript
  const User1 = new Usuario('email@teste.com', 'senha123');
  const Adm1 = new Admin('email@teste.com', 'senha123');
  console.log(User1.isAdmin()) // false
  console.log(Adm1.isAdmin()) // true
  ```
-</span>
 
 **2º exercício**
 
@@ -106,7 +104,43 @@ const promise = function() {
 }
 ```
 
+**4º exercício**
 
+**4.1 Desestruturação simples**
+
+**A partir do seguinte objeto:**
+
+```JavaScript 
+const empresa = {
+ nome: 'Rocketseat',
+ endereco: {
+ cidade: 'Rio do Sul',
+ estado: 'SC',
+ }
+};
+```
+
+Utilize a desestruturação para transformar as propriedades nome, cidade e estado em variáveis, no
+fim deve ser possível fazer o seguinte:
+
+```JavaScript
+console.log(nome); // Rocketseat
+console.log(cidade); // Rio do Sul
+console.log(estado); // SC
+```
+
+**4.2 Desestruturação em parâmetros**
+
+**Na seguinte função:**
+
+
+```JavaScript
+function mostraInfo(usuario) {
+ return `${usuario.nome} tem ${usuario.idade} anos.`;
+}
+mostraInfo({ nome: 'Diego', idade: 23 })
+
+```
 
 
 
