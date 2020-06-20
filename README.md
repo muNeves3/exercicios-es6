@@ -2,7 +2,8 @@
 
 # Exercícios do módulo 1:
 
-**1) Para testar seus conhecimentos com classes, crie uma classe com nome "Admin", essa classe deve
+**1º exercício
+**Para testar seus conhecimentos com classes, crie uma classe com nome "Admin", essa classe deve
 extender uma segunda classe chamada "Usuario".**
 
 **A classe usuário deve receber dois parâmetros no método construtor, e-mail e senha, e anotá-los
@@ -20,7 +21,8 @@ console.log(User1.isAdmin()) // false
 console.log(Adm1.isAdmin()) // true
 ```
 
-**2) A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):**
+**2º exercício**
+**A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):**
 
 ```JavaScript
 const usuarios = [
@@ -55,7 +57,7 @@ no máximo 50 anos:
 ]
 ```
 
-**3)
+**3º exercício
 
 Converta as funções nos seguintes trechos de código em Arrow Functions:
 
