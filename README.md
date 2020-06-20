@@ -55,7 +55,7 @@ no máximo 50 anos:
 ]
 ```
 
-**3) **
+**3)
 
 Converta as funções nos seguintes trechos de código em Arrow Functions:
 
