@@ -1,1 +1,1 @@
-# exercicios-es6
+# exercicios-es6-rocketseat
