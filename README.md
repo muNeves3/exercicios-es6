@@ -2,7 +2,8 @@
 
 # Exercícios do módulo 1:
 
-**1º exercício
+**1º exercício**
+
 **Para testar seus conhecimentos com classes, crie uma classe com nome "Admin", essa classe deve
 extender uma segunda classe chamada "Usuario".**
 
@@ -22,6 +23,7 @@ console.log(Adm1.isAdmin()) // true
 ```
 
 **2º exercício**
+
 **A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):**
 
 ```JavaScript
@@ -57,9 +59,9 @@ no máximo 50 anos:
 ]
 ```
 
-**3º exercício
+**3º exercício**
 
-Converta as funções nos seguintes trechos de código em Arrow Functions:
+**Converta as funções nos seguintes trechos de código em Arrow Functions:**
 
 ```JavaScript 
 // 3.1
