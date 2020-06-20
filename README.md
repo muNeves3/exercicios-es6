@@ -13,7 +13,7 @@ true na classe.**
 **Agora com suas classes formatadas, adicione um método na classe Usuario chamado `isAdmin` que
 retorna se o usuário é administrador ou não baseado na propriedade `admin` ser `true` ou não** 
 
-``` 
+```JavaScript
 const User1 = new Usuario('email@teste.com', 'senha123');
 const Adm1 = new Admin('email@teste.com', 'senha123');
 console.log(User1.isAdmin()) // false
