@@ -216,3 +216,17 @@ const usuario = {
  cidade: 'Rio do Sul',
 };
 ```
+
+# Exercicios módulo 2;
+
+**1º exercício**
+Crie um arquivo chamado ``functions.js`` com o seguinte conteúdo:
+
+```JavaScript
+export const idade = 23;
+export default class Usuario {
+ static info() {
+ console.log('Apenas teste');
+ }
+}
+```
