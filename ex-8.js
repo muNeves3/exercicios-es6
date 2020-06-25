@@ -1,3 +1,3 @@
-import classeUsuario from '../public/function';
+import classeUsuario from './function';
 
 console.log(classeUsuario.info());
