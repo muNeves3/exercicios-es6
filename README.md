@@ -217,7 +217,7 @@ const usuario = {
 };
 ```
 
-# Exercicios módulo 2;
+# Exercicios módulo 2:
 
 **1º exercício**
 Crie um arquivo chamado ``functions.js`` com o seguinte conteúdo:
@@ -243,3 +243,76 @@ Em seu arquivo principal importe a variável de idade e exiba a mesma em tela;
 
 Em seu arquivo principal importe tanto a classe quanto a variável idade e renomeie a variável idade
 para ``IdadeUsuario.``
+
+# Exercícios: Módulo 03: 
+Todos os exercícios abaixo necessitam que você esteja com o plugin do Async/Await do Babel e o
+babel-polyfill devidamente configurados. Em alguns exercícios é necessário instalar o Axios.
+
+**1º exercício**
+
+Transforme os seguintes trechos de código utilizando async/await:
+
+```JavaScript 
+// Função delay aciona o .then após 1s
+const delay = () => new Promise(resolve => setTimeout(resolve, 1000));
+function umPorSegundo() {
+ delay().then(() => {
+ console.log('1s');
+ delay().then(() => {
+ console.log('2s');
+ delay().then(() => {
+ console.log('3s');
+ });
+ })
+ });
+}
+umPorSegundo();
+```
+
+```JavaScript 
+import axios from 'axios';
+function getUserFromGithub(user) {
+ axios.get(`https://api.github.com/users/${user}`)
+ .then(response => {
+ console.log(response.data);
+ })
+ .catch(err => {
+ console.log('Usuário não existe');
+ })
+}
+getUserFromGithub('diego3g');
+getUserFromGithub('diego3g124123');
+
+```
+
+```JavaScript 
+class Github {
+ static getRepositories(repo) {
+ axios.get(`https://api.github.com/repos/${repo}`)
+ .then(response => {
+ console.log(response.data);
+ })
+ .catch(err => {
+ console.log('Repositório não existe');
+ })
+ }
+}
+Github.getRepositories('rocketseat/rocketseat.com.br');
+Github.getRepositories('rocketseat/dslkvmskv');
+
+```
+
+```JavaScript 
+const buscaUsuario = usuario => {
+ axios.get(`https://api.github.com/users/${user}`)
+ .then(response => {
+ console.log(response.data);
+ })
+ .catch(err => {
+ console.log('Usuário não existe');
+ });
+}
+buscaUsuario('diego3g');
+```
+
+
